@@ -1,7 +1,7 @@
  let time=2;
  const countdown=setInterval(()=>
 {
-   console.log(`Time is remaining  : ${time} second`)
+   console.log(`Time is remaining  : ${time-1} second`)
    time--;
    if(time==0)
    {

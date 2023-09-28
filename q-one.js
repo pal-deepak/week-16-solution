@@ -1,7 +1,9 @@
 function reverse(input)
-{
-   return input.split("").reverse().join("")
+{  
+   return input.split("").reverse().join("");
+
 }
+
 let input="Deepak"
 
 function deleay()
